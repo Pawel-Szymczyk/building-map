@@ -30,7 +30,7 @@ const floorData = {
         id: "m-23",
         status: "sprzedane",
         highlight: "red",
-        svgPath: "assets/images/buildings/building-a/floors/floor-1/aparments/apartment-23/M23.jpg",
+        imgSrc: "assets/images/buildings/building-a/floors/floor-1/aparments/apartment-23/M23.jpg",
       },
       {
         id: "m-22",
@@ -51,8 +51,8 @@ const floorData = {
         svgPath: "",
       },
     ],
-    total: 10,
-    free: 5,
+    total: 6,
+    free: 4,
   },
   2: {
     total: 12,
@@ -155,6 +155,8 @@ function openApartment(apartmentId, apartmentData) {
     <h3>Mieszkanie ${apartmentId}</h3>
     <p>Status: ${apartmentData.status}</p>
     <p>Tu można wstawić metraż, zdjęcia itd.</p>
+
+    <img src="${apartmentData.imgSrc}" alt="apartment ${apartmentId}" />
   `;
   popupBack.style.display = "block";
 }
