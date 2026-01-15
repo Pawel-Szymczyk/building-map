@@ -12,70 +12,49 @@ const popupBack = document.getElementById("popup-back");
 
 const floorData = {
   1: {
-    svgPath: "assets/images/floor-map.svg",
-    appartmets: [
+    svgPath: "assets/images/buildings/building-a/floors/floor-1/floor-map.svg",
+    apartmets: [
       {
         id: "m-24",
         status: "wolne",
         highlight: "green",
+        svgPath: "",
       },
       {
         id: "m-19",
         status: "wolne",
         highlight: "green",
+        svgPath: "",
       },
       {
         id: "m-23",
         status: "sprzedane",
         highlight: "red",
+        svgPath: "assets/images/buildings/building-a/floors/floor-1/aparments/apartment-23/M23.jpg",
       },
       {
         id: "m-22",
         status: "wolne",
         highlight: "green",
+        svgPath: "",
       },
       {
         id: "m-21",
         status: "wolne",
         highlight: "green",
+        svgPath: "",
       },
       {
         id: "m-20",
         status: "rezerwacja",
         highlight: "yellow",
+        svgPath: "",
       },
     ],
     total: 10,
     free: 5,
   },
   2: {
-    svgPath: "assets/images/floor-map.svg",
-    appartmets: [
-      {
-        id: "m-24",
-        status: "wolne",
-      },
-      {
-        id: "m-19",
-        status: "wolne",
-      },
-      {
-        id: "m-23",
-        status: "sprzedane",
-      },
-      {
-        id: "m-22",
-        status: "wolne",
-      },
-      {
-        id: "m-21",
-        status: "wolne",
-      },
-      {
-        id: "m-20",
-        status: "rezerwacja",
-      },
-    ],
     total: 12,
     free: 3,
   },
@@ -149,14 +128,14 @@ function openFloorPopup(floorNumber) {
       // dodaj status highlight do kazdego mieszkania
       document.querySelectorAll(".apartment").forEach((path) => {
         const id = path.dataset.id;
-        path.setAttribute("fill", data.appartmets.find((a) => a.id === id).highlight || "gray");
+        path.setAttribute("fill", data.apartmets.find((a) => a.id === id).highlight || "gray");
         path.setAttribute("fill-opacity", 0.5);
       });
 
       // Dodaj interakcje do mieszkań
       popupBody.querySelectorAll(".apartment").forEach((path) => {
-        const appartmetId = path.dataset.id;
-        const appartmetData = data.appartmets.find((a) => a.id === appartmetId);
+        const apartmentId = path.dataset.id;
+        const apartmentData = data.apartmets.find((a) => a.id === apartmentId);
 
         path.addEventListener("mouseenter", () => {
           path.setAttribute("fill-opacity", 0.8);
@@ -164,9 +143,20 @@ function openFloorPopup(floorNumber) {
         path.addEventListener("mouseleave", () => {
           path.setAttribute("fill-opacity", 0.5);
         });
+
+        path.addEventListener("click", () => openApartment(apartmentId, apartmentData));
       });
     })
     .catch((err) => console.error("Nie udało się wczytać SVG", err));
+}
+
+function openApartment(apartmentId, apartmentData) {
+  popupBody.innerHTML = `
+    <h3>Mieszkanie ${apartmentId}</h3>
+    <p>Status: ${apartmentData.status}</p>
+    <p>Tu można wstawić metraż, zdjęcia itd.</p>
+  `;
+  popupBack.style.display = "block";
 }
 
 // Powrót do poprzedniego widoku piętra
