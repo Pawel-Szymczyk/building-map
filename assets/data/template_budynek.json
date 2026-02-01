@@ -1,0 +1,89 @@
+{
+  "budynki": [
+    {
+      "nazwa": "",
+      "metadata": {
+        "contact": {
+          "address": "",
+          "tel_fax": "",
+          "website": "",
+          "email": ""
+        }
+      },
+      "etapy": [
+        {
+          "etap": "",
+          "opis": "",
+          "typy": [
+            {
+              "typ": "",
+              "powierchnia_dzialki_m2": "",
+              "wymagana_powierzchnia_biologiczna_czynna_procent": "",
+              "wymagana_powierzchnia_biologiczna_czynna_m2": "",
+              "elementy": [
+                {
+                  "nazwa": "",
+                  "powierzchnia_liczona_100_procent": "",
+                  "powierzchnia_liczona_50_procent": "",
+                  "calkowita_powierzchnia_biologiczna_czynna_m2": ""
+                }
+              ],
+              "podsumowanie": {
+                "calkowita_powierzchnia_biologiczna_czynna_m2": "",
+                "procent_powierzchni": "",
+                "dodatkowe_m2": ""
+              }
+            }
+          ],
+          "segmenty": [
+            {
+              "nazwa": "",
+              "pietra": [
+                {
+                  "pietro": "",
+                  "klatki": [
+                    {
+                      "nazwa": "",
+                      "lokale": [
+                        {
+                          "lokal": "",
+                          "liczba_pokoi": "",
+                          "powierzchnia_uzytkowa_m2": "",
+                          "status_lokalu": "",
+                          "typ_lokalu": ""
+                        }
+                      ],
+                      "podsumowanie_klatki": {
+                        "powierzchnia_uzytkowa_m2": ""
+                      }
+                    }
+                  ],
+                  "podsumowanie_pietra": {
+                    "liczba_lokali": "",
+                    "powierzchnia_uzytkowa_m2": "",
+                    "suma_lokali": {
+                      "1-pok": "",
+                      "2-pok": "",
+                      "3-pok": "",
+                      "4-pok": ""
+                    }
+                  }
+                }
+              ],
+              "podsumowanie_segmentu": {
+                "calkowita_liczba_lokali": "",
+                "calkowita_powierzchnia_uzytkowa_m2": "",
+                "suma_lokali": {
+                  "1-pok": "",
+                  "2-pok": "",
+                  "3-pok": "",
+                  "4-pok": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

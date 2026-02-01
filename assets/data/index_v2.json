@@ -1,0 +1,505 @@
+{
+  "budynki": [
+    {
+      "nazwa": "122 A",
+      "metadata": {
+        "contact": {
+          "address": "31-416 KRAKÓW, UL. DOBREGO PASTERZA 122 A",
+          "tel_fax": "(012) 634 39 94",
+          "website": "www.skoczekpartnerzy.com",
+          "email": "biuro@skoczekpartnerzy.com"
+        }
+      },
+      "etapy": [
+        {
+          "etap": "Etap 1",
+          "opis": "",
+          "typy": [
+            {
+              "typ": "powierzchnia_biologiczna_czynna",
+              "powierchnia_dzialki_m2": 9641.23,
+              "wymagana_powierzchnia_biologiczna_czynna_procent": 50,
+              "wymagana_powierzchnia_biologiczna_czynna_m2": 4820.615,
+              "elementy": [
+                {
+                  "nazwa": "na_gruncie",
+                  "powierzchnia_liczona_100_procent": 1992.61,
+                  "powierzchnia_liczona_50_procent": null,
+                  "calkowita_powierzchnia_biologiczna_czynna_m2": 1992.61
+                },
+                {
+                  "nazwa": "stropodach_parter",
+                  "powierzchnia_liczona_100_procent": null,
+                  "powierzchnia_liczona_50_procent": 2078.69,
+                  "calkowita_powierzchnia_biologiczna_czynna_m2": 1039.35
+                },
+                {
+                  "nazwa": "ściany_zielone_elewacje",
+                  "powierzchnia_liczona_100_procent": null,
+                  "powierzchnia_liczona_50_procent": 255.06,
+                  "calkowita_powierzchnia_biologiczna_czynna_m2": 127.53
+                },
+                {
+                  "nazwa": "ściany_zielone_dziedziniec",
+                  "powierzchnia_liczona_100_procent": null,
+                  "powierzchnia_liczona_50_procent": 256.86,
+                  "calkowita_powierzchnia_biologiczna_czynna_m2": 128.43
+                },
+                {
+                  "nazwa": "stropodach_dach",
+                  "powierzchnia_liczona_100_procent": null,
+                  "powierzchnia_liczona_50_procent": 3070.59,
+                  "calkowita_powierzchnia_biologiczna_czynna_m2": 1535.295
+                }
+              ],
+              "podsumowanie": {
+                "calkowita_powierzchnia_biologiczna_czynna_m2": 4823.215,
+                "procent_powierzchni": 50.03,
+                "dodatkowe_m2": 2.6
+              }
+            }
+          ],
+          "segmenty": [
+            {
+              "nazwa": "Segment A",
+              "pietra": [
+                {
+                  "pietro": "parter",
+                  "klatki": [
+                    {
+                      "nazwa": "Klatka 1",
+                      "lokale": [
+                        {
+                          "lokal": "A-1",
+                          "liczba_pokoi": 3,
+                          "powierzchnia_uzytkowa_m2": 66.47,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-2",
+                          "liczba_pokoi": 2,
+                          "powierzchnia_uzytkowa_m2": 41.95,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-3",
+                          "liczba_pokoi": 2,
+                          "powierzchnia_uzytkowa_m2": 45.11,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-4",
+                          "liczba_pokoi": 3,
+                          "powierzchnia_uzytkowa_m2": 56.66,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-5",
+                          "liczba_pokoi": 3,
+                          "powierzchnia_uzytkowa_m2": 61.49,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-6",
+                          "liczba_pokoi": 3,
+                          "powierzchnia_uzytkowa_m2": 61.25,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-7",
+                          "liczba_pokoi": 2,
+                          "powierzchnia_uzytkowa_m2": 45.12,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-8",
+                          "liczba_pokoi": 1,
+                          "powierzchnia_uzytkowa_m2": 28.3,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "1-pok"
+                        },
+                        {
+                          "lokal": "A-9",
+                          "liczba_pokoi": 1,
+                          "powierzchnia_uzytkowa_m2": 28.3,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "1-pok"
+                        },
+                        {
+                          "lokal": "A-10",
+                          "liczba_pokoi": 2,
+                          "powierzchnia_uzytkowa_m2": 45.07,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-11",
+                          "liczba_pokoi": 3,
+                          "powierzchnia_uzytkowa_m2": 59.85,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        }
+                      ],
+                      "podsumowanie_klatki": {
+                        "powierzchnia_uzytkowa_m2": 539.57
+                      }
+                    },
+                    {
+                      "nazwa": "Klatka 2",
+                      "lokale": [
+                        {
+                          "lokal": "A-46",
+                          "liczba_pokoi": 3,
+                          "powierzchnia_uzytkowa_m2": 60.73,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-47",
+                          "liczba_pokoi": 4,
+                          "powierzchnia_uzytkowa_m2": 83.44,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "4-pok"
+                        },
+                        {
+                          "lokal": "A-48",
+                          "liczba_pokoi": 3,
+                          "powierzchnia_uzytkowa_m2": 61.22,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-49",
+                          "liczba_pokoi": 3,
+                          "powierzchnia_uzytkowa_m2": 65.88,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-50",
+                          "liczba_pokoi": 2,
+                          "powierzchnia_uzytkowa_m2": 45.13,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-51",
+                          "liczba_pokoi": 2,
+                          "powierzchnia_uzytkowa_m2": 38.05,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-52",
+                          "liczba_pokoi": 2,
+                          "powierzchnia_uzytkowa_m2": 45.84,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-53",
+                          "liczba_pokoi": 2,
+                          "powierzchnia_uzytkowa_m2": 45.14,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-54",
+                          "liczba_pokoi": 3,
+                          "powierzchnia_uzytkowa_m2": 61.12,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-55",
+                          "liczba_pokoi": 3,
+                          "powierzchnia_uzytkowa_m2": 64.54,
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        }
+                      ],
+                      "podsumowanie_klatki": {
+                        "powierzchnia_uzytkowa_m2": 571.09
+                      }
+                    }
+                  ],
+                  "podsumowanie_pietra": {
+                    "liczba_lokali": 21,
+                    "powierzchnia_uzytkowa_m2": 1110.66,
+                    "suma_lokali": {
+                      "1-pok": 2,
+                      "2-pok": 8,
+                      "3-pok": 10,
+                      "4-pok": 1
+                    }
+                  }
+                },
+                {
+                  "pietro": "I piętro",
+                  "klatki": [
+                    {
+                      "nazwa": "Klatka 1",
+                      "lokale": [
+                        {
+                          "lokal": "A-12",
+                          "liczba_pokoi": "3",
+                          "powierzchnia_uzytkowa_m2": "56.66",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-13",
+                          "liczba_pokoi": "3",
+                          "powierzchnia_uzytkowa_m2": "61.49",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-14",
+                          "liczba_pokoi": "3",
+                          "powierzchnia_uzytkowa_m2": "61.25",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-15",
+                          "liczba_pokoi": "2",
+                          "powierzchnia_uzytkowa_m2": "45.12",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-16",
+                          "liczba_pokoi": "1",
+                          "powierzchnia_uzytkowa_m2": "28.3",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "1-pok"
+                        },
+                        {
+                          "lokal": "A-17",
+                          "liczba_pokoi": "1",
+                          "powierzchnia_uzytkowa_m2": "28.3",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "1-pok"
+                        },
+                        {
+                          "lokal": "A-18",
+                          "liczba_pokoi": "2",
+                          "powierzchnia_uzytkowa_m2": "45.07",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-19",
+                          "liczba_pokoi": "3",
+                          "powierzchnia_uzytkowa_m2": "59.85",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-20",
+                          "liczba_pokoi": "3",
+                          "powierzchnia_uzytkowa_m2": "59.85",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-21",
+                          "liczba_pokoi": "3",
+                          "powierzchnia_uzytkowa_m2": "59.55",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-22",
+                          "liczba_pokoi": "2",
+                          "powierzchnia_uzytkowa_m2": "41.95",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-23",
+                          "liczba_pokoi": "2",
+                          "powierzchnia_uzytkowa_m2": "41.11",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        }
+                      ],
+                      "podsumowanie_klatki": {
+                        "powierzchnia_uzytkowa_m2": "592.5"
+                      }
+                    },
+                    {
+                      "nazwa": "Klatka 2",
+                      "lokale": [
+                        {
+                          "lokal": "A-56",
+                          "liczba_pokoi": "3",
+                          "powierzchnia_uzytkowa_m2": "60.73",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-57",
+                          "liczba_pokoi": "4",
+                          "powierzchnia_uzytkowa_m2": "83.52",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "4-pok"
+                        },
+                        {
+                          "lokal": "A-58",
+                          "liczba_pokoi": "3",
+                          "powierzchnia_uzytkowa_m2": "61.22",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-59",
+                          "liczba_pokoi": "3",
+                          "powierzchnia_uzytkowa_m2": "65.88",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-60",
+                          "liczba_pokoi": "2",
+                          "powierzchnia_uzytkowa_m2": "45.13",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-61",
+                          "liczba_pokoi": "2",
+                          "powierzchnia_uzytkowa_m2": "38.05",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-62",
+                          "liczba_pokoi": "2",
+                          "powierzchnia_uzytkowa_m2": "45.8",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-63",
+                          "liczba_pokoi": "2",
+                          "powierzchnia_uzytkowa_m2": "45.14",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-64",
+                          "liczba_pokoi": "3",
+                          "powierzchnia_uzytkowa_m2": "61.12",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        },
+                        {
+                          "lokal": "A-65",
+                          "liczba_pokoi": "2",
+                          "powierzchnia_uzytkowa_m2": "43.42",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "2-pok"
+                        },
+                        {
+                          "lokal": "A-66",
+                          "liczba_pokoi": "3",
+                          "powierzchnia_uzytkowa_m2": "61.13",
+                          "status_lokalu": "wolny",
+                          "typ_lokalu": "3-pok"
+                        }
+                      ],
+                      "podsumowanie_klatki": {
+                        "powierzchnia_uzytkowa_m2": "611.14"
+                      }
+                    }
+                  ],
+                  "podsumowanie_pietra": {
+                    "liczba_lokali": 23,
+                    "powierzchnia_uzytkowa_m2": 1203.64,
+                    "suma_lokali": {
+                      "1-pok": 2,
+                      "2-pok": 9,
+                      "3-pok": 11,
+                      "4-pok": 1
+                    }
+                  }
+                }
+              ],
+              "podsumowanie_segmentu": {
+                "calkowita_liczba_lokali": 88,
+                "calkowita_powierzchnia_uzytkowa_m2": 4721.98,
+                "suma_lokali": {
+                  "1-pok": 6,
+                  "2-pok": 34,
+                  "3-pok": 43,
+                  "4-pok": 5
+                }
+              }
+            },
+            {
+              "nazwa": "Segment B"
+            }
+          ]
+        },
+        {
+          "etap": "Etap 2",
+          "opis": "",
+          "typy": [
+            {
+              "typ": "powierzchnia_biologiczna_czynna",
+              "powierchnia_dzialki_m2": 8408.56,
+              "wymagana_powierzchnia_biologiczna_czynna_procent": 50,
+              "wymagana_powierzchnia_biologiczna_czynna_m2": 4204.28,
+              "elementy": [
+                {
+                  "nazwa": "na_gruncie",
+                  "powierzchnia_liczona_100_procent": 1375.08,
+                  "powierzchnia_liczona_50_procent": null,
+                  "calkowita_powierzchnia_biologiczna_czynna_m2": 1375.08
+                },
+                {
+                  "nazwa": "stropodach_parter",
+                  "powierzchnia_liczona_100_procent": null,
+                  "powierzchnia_liczona_50_procent": 2078.69,
+                  "calkowita_powierzchnia_biologiczna_czynna_m2": 1039.35
+                },
+                {
+                  "nazwa": "ściany_zielone_elewacje",
+                  "powierzchnia_liczona_100_procent": null,
+                  "powierzchnia_liczona_50_procent": 255.06,
+                  "calkowita_powierzchnia_biologiczna_czynna_m2": 127.53
+                },
+                {
+                  "nazwa": "ściany_zielone_dziedziniec",
+                  "powierzchnia_liczona_100_procent": null,
+                  "powierzchnia_liczona_50_procent": 256.86,
+                  "calkowita_powierzchnia_biologiczna_czynna_m2": 128.43
+                },
+                {
+                  "nazwa": "stropodach_dach",
+                  "powierzchnia_liczona_100_procent": null,
+                  "powierzchnia_liczona_50_procent": 3070.59,
+                  "calkowita_powierzchnia_biologiczna_czynna_m2": 1535.295
+                }
+              ],
+              "podsumowanie": {
+                "calkowita_powierzchnia_biologiczna_czynna_m2": 4205.685,
+                "procent_powierzchni": 50.02,
+                "dodatkowe_m2": 1.405
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

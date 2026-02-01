@@ -1,0 +1,97 @@
+{
+  "types": [
+    {
+      "type": "powierzchnia_biologiczna_czynna",
+      "stages": [
+        {
+          "stage": "Etap 1",
+          "description": "",
+          "powierchnia_dzialki_m2": 9641.23,
+          "wymagana_powierzchnia_biologiczna_czynna_procent": 50,
+          "wymagana_powierzchnia_biologiczna_czynna_m2": 4820.615,
+          "elementy": [
+            {
+              "nazwa": "na_gruncie",
+              "powierzchnia_liczona_100_procent": 1992.61,
+              "powierzchnia_liczona_50_procent": null,
+              "calkowita_powierzchnia_biologiczna_czynna_m2": 1992.61
+            },
+            {
+              "nazwa": "stropodach_parter",
+              "powierzchnia_liczona_100_procent": null,
+              "powierzchnia_liczona_50_procent": 2078.69,
+              "calkowita_powierzchnia_biologiczna_czynna_m2": 1039.35
+            },
+            {
+              "nazwa": "ściany_zielone_elewacje",
+              "powierzchnia_liczona_100_procent": null,
+              "powierzchnia_liczona_50_procent": 255.06,
+              "calkowita_powierzchnia_biologiczna_czynna_m2": 127.53
+            },
+            {
+              "nazwa": "ściany_zielone_dziedziniec",
+              "powierzchnia_liczona_100_procent": null,
+              "powierzchnia_liczona_50_procent": 256.86,
+              "calkowita_powierzchnia_biologiczna_czynna_m2": 128.43
+            },
+            {
+              "nazwa": "stropodach_dach",
+              "powierzchnia_liczona_100_procent": null,
+              "powierzchnia_liczona_50_procent": 3070.59,
+              "calkowita_powierzchnia_biologiczna_czynna_m2": 1535.295
+            }
+          ],
+          "podsumowanie": {
+            "calkowita_powierzchnia_biologiczna_czynna_m2": 4823.215,
+            "procent_powierzchni": 50.03,
+            "dodatkowe_m2": 2.6
+          }
+        },
+        {
+          "stage": "Etap 2",
+          "description": "",
+          "powierchnia_dzialki_m2": 8408.56,
+          "wymagana_powierzchnia_biologiczna_czynna_procent": 50,
+          "wymagana_powierzchnia_biologiczna_czynna_m2": 4204.28,
+          "elementy": [
+            {
+              "nazwa": "na_gruncie",
+              "powierzchnia_liczona_100_procent": 1375.08,
+              "powierzchnia_liczona_50_procent": null,
+              "calkowita_powierzchnia_biologiczna_czynna_m2": 1375.08
+            },
+            {
+              "nazwa": "stropodach_parter",
+              "powierzchnia_liczona_100_procent": null,
+              "powierzchnia_liczona_50_procent": 2078.69,
+              "calkowita_powierzchnia_biologiczna_czynna_m2": 1039.35
+            },
+            {
+              "nazwa": "ściany_zielone_elewacje",
+              "powierzchnia_liczona_100_procent": null,
+              "powierzchnia_liczona_50_procent": 255.06,
+              "calkowita_powierzchnia_biologiczna_czynna_m2": 127.53
+            },
+            {
+              "nazwa": "ściany_zielone_dziedziniec",
+              "powierzchnia_liczona_100_procent": null,
+              "powierzchnia_liczona_50_procent": 256.86,
+              "calkowita_powierzchnia_biologiczna_czynna_m2": 128.43
+            },
+            {
+              "nazwa": "stropodach_dach",
+              "powierzchnia_liczona_100_procent": null,
+              "powierzchnia_liczona_50_procent": 3070.59,
+              "calkowita_powierzchnia_biologiczna_czynna_m2": 1535.295
+            }
+          ],
+          "podsumowanie": {
+            "calkowita_powierzchnia_biologiczna_czynna_m2": 4205.685,
+            "procent_powierzchni": 50.02,
+            "dodatkowe_m2": 1.405
+          }
+        }
+      ]
+    }
+  ]
+}

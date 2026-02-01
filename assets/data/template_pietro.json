@@ -1,0 +1,30 @@
+{
+  "pietro": "",
+  "klatki": [
+    {
+      "nazwa": "",
+      "lokale": [
+        {
+          "lokal": "",
+          "liczba_pokoi": "",
+          "powierzchnia_uzytkowa_m2": "",
+          "status_lokalu": "",
+          "typ_lokalu": ""
+        }
+      ],
+      "podsumowanie_klatki": {
+        "powierzchnia_uzytkowa_m2": ""
+      }
+    }
+  ],
+  "podsumowanie_pietra": {
+    "liczba_lokali": "",
+    "powierzchnia_uzytkowa_m2": "",
+    "suma_lokali": {
+      "1-pok": "",
+      "2-pok": "",
+      "3-pok": "",
+      "4-pok": ""
+    }
+  }
+}
