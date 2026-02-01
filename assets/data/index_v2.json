@@ -822,12 +822,10 @@
           "infrastruktura": {
             "garaze": [
               {
-                "nazwa"
+                "nazwa": ""
               }
             ],
-            "pomieszczenia_na_jednoslady": [
-
-            ],
+            "pomieszczenia_na_jednoslady": [],
             "komurki_lokatorskie": [
               {
                 "nazwa": "",
@@ -838,19 +836,6 @@
                 "status": "wolny"
               }
             ]
-
-
-
-
-
-            // "parking_podziemny": {
-            //   "liczba_miejsc_parkingowych": 60,
-            //   "status": "dostępne"
-            // },
-            // "komorki_lokatorskie": {
-            //   "liczba_komorek": 30,
-            //   "status": "dostępne"
-            // }
           }
         },
         {
